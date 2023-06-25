@@ -1,13 +1,5 @@
 {
     const tasks = [
-        {
-            content: "cos",
-            done: false,
-        },
-        {
-            content: "cos",
-            done: true,
-        },
     ];
 
     const addNewTask = (newTaskContent) => {
