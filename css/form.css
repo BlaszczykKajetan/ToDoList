@@ -1,0 +1,39 @@
+.form {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20px
+}
+
+.form__input {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.form__button {
+    color: black;
+    background: turquoise;
+    border: none;
+    transition: 0.5s;
+    padding: 20px;
+}
+
+.form__button:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.section__button:disabled {
+    color: #ccc
+}
+
+@media (max-width: 767px) {
+    .section__headerSection {
+        grid-template-columns: 1fr;
+    }
+
+    .section__buttons {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+}

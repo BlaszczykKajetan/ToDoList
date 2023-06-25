@@ -1,0 +1,51 @@
+.section {
+    margin: 10px 0;
+    min-width: 100px;
+    background: white;
+    box-shadow: 0 0 5px #ddd;
+}
+
+.section__header {
+    font-size: 20px;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.section__body {
+    padding: 20px;
+}
+
+.section__headerSection {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.section__button:disabled {
+    color: #ccc
+}
+
+.section__button--done {
+    background-color: #15a515;
+}
+
+.section__button--done:hover {
+    background-color: #15a515;
+}
+
+.section__button--done:active {
+    background-color: #15a515;
+}
+
+.section__button--remove {
+    background-color: white;
+}
+
+.section__button--remove:hover {
+    background-color: white;
+}
+
+.section__button--remove:active {
+    background-color: white;
+}
