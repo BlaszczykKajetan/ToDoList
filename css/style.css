@@ -1,8 +1,17 @@
 html {
     box-sizing: border-box;
-
 }
 
-*, ::after ::before {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px auto;
+    max-width: 1000px;
+    background-color: rgb(231, 230, 230);
 }
