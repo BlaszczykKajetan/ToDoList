@@ -9,4 +9,5 @@ Easy to do list that can help you with organizing
 - HTML
 - CSS
 - BEM Convention
+- Immutability Convention
   
